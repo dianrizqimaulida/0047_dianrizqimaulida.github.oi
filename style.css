@@ -1,0 +1,77 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background:rgb(133, 111, 103);
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper> * {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1 100%;
+}
+
+header{
+    background-image: url(header.jpg); 
+    height: 200px;
+    width: auto;
+    color: antiquewhite;
+    font-size: 20px;
+    background-size: cover;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background:papayawhip;
+    height: 80px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    background: oldlace ;
+    height: 150px;
+}
+
+.main{
+    background: tan;
+    height: 300px;
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.aside{
+    background: navajowhite;
+    background-image: url(gift.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px ;
+
+}
+
+@media all and (min-width: 800px){
+    .main{
+        flex: 2;
+    }
+    .aside{
+        order: 2;
+    }
+    .main{
+        order: 1;
+    }
+    .footer{
+        order: 4;
+    }
+}
+
+@media all and (min-width: 600px){
+    .aside1{
+        flex: 1;
+    }
+}
