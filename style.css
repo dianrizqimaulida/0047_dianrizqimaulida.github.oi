@@ -40,7 +40,7 @@ nav{
 
 .main{
     background: tan;
-    height: 300px;
+    height: 310px;
     padding: 40px;
     font-size: 20px;
     text-align: center;
@@ -48,8 +48,6 @@ nav{
 }
 .aside{
     background: navajowhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px ;
 
 }
 
